@@ -11,7 +11,7 @@ logging.basicConfig(filename='xpor_auto_email.log',
                     format='%(asctime)s %(levelname)s:%(message)s')
 
 # Email settings
-RECIPIENT = 'b00793856@essec.edu'
+RECIPIENT = 'XXX@YYY.ZZZ'
 SUBJECT_PREFIX = 'XPOR'
 CHECK_INTERVAL = 300  # seconds (5 minutes)
 ATTACHMENT_DIR = 'xpor_attachments'
